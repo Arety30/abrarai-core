@@ -1,0 +1,17 @@
+{
+    "ollama_host": "http://localhost:11434",
+    "voice_settings": {
+        "vad_threshold": 0.5,
+        "stt_model_size": "base.en",
+        "tts_voice_engine": "piper",
+        "barge_in_enabled": true
+    },
+    "ingestion": {
+        "max_file_size_mb": 25,
+        "allowed_extensions": [".txt", ".py", ".json", ".md", ".csv", ".js", ".lua"]
+    },
+    "security": {
+        "strict_mode": true,
+        "sandbox_file_access": true
+    }
+}
